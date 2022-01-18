@@ -1,0 +1,44 @@
+.CosaTopholder {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px;
+    height: 150px;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.CosaPicture {
+    height: 150px;
+    background-size: cover;
+    background-position: center;
+}
+
+.CosaTopholder a {
+    text-decoration: none;
+    color:grey;
+    transition: 1s;
+}
+
+
+.CosaTopholder > div {
+    padding: 2px;
+    font-size: 2em;
+    transition: 1s;
+    background-color:white;
+}
+
+.CosaTopholder a:hover {
+    color: black;
+}
+
+/*.CosaTopholder > div {
+    padding: 2px;
+    font-size: 2em;
+    transition: 1s;
+}
+
+
+.CosaTopholder > div :hover {
+    background-color: green;
+}*/
